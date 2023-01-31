@@ -1,70 +1,89 @@
-body{
-    /*background-image: url("bdlifestyles_logo.jpg");
+body {
+  /*background-image: url("bdlifestyles_logo.jpg");
     background-repeat: repeat-x;*/
-  
-   background-color: lightblue;
-   text-align: center;
-  }
-  
-  form {
-    max-width: 900px;
-    text-align: left;
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin: auto;
-   }
-  
-  input {
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  .input-element {
+
+  background-color: rgb(202, 218, 224);
+  text-align: center;
+}
+
+form {
+  max-width: 900px;
+  text-align: left;
+  padding: 10px;
+
+  border-radius: 5px;
+  margin: auto;
+}
+
+input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.input-element {
   margin: 10px;
   display: flex;
   flex-direction: column;
   margin: 10px;
-  }
-  
-  select{
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  input[type="checkbox"]{
-    width: 15px;
-    height:15px;
-  }
+}
 
-  textarea{
-    width: 800px;
-    border: none;
-    outline: none;
-    padding: 5px;
-    font-size: 15px;
-    border-radius: 5px;
-    margin-top: 10px;
-    resize: vertical;
-  }
+select {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
 
-  button[type="submit"] {
-    width: 900px;
-    border: none;
-    outline: none;
-    padding: 5px;
-    font-size: 15px;
-    border-radius: 5px;
-    font-family: 'Courier New', Courier, monospace;
-    color:cornflowerblue
-    text-align center;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: .5s ease background-color;
-  }
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
 
-  button[type="submit"]:hover {
-    background-color:lightseagreen
-  }
+textarea {
+  width: 890px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  resize: vertical;
+  columns: rows;
+}
+
+button[type="submit"] {
+  width: 25%;
+  margin: 350px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  color: cornflowerblue text-align center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: .5s ease background-color;
+}
+
+button[type="submit"]:hover {
+  background-color: lightseagreen
+}
+button[type="reser"] {
+  width: 10%;
+  margin: 200px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  color: cornflowerblue text-align center;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: .5s ease background-color;
+}
+
+button[type="reset"]:hover {
+  background-color: lightseagreen
+}
