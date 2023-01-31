@@ -52,7 +52,7 @@ textarea {
 }
 
 button[type="submit"] {
-  width: 25%;
+  width: 150px;
   margin: 350px;
   border: none;
   outline: none;
@@ -69,9 +69,10 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: lightseagreen
 }
-button[type="reser"] {
-  width: 10%;
-  margin: 200px;
+button[type="reset"] {
+  
+  width: 150px;
+  margin: 350px;
   border: none;
   outline: none;
   padding: 5px;
@@ -80,7 +81,7 @@ button[type="reser"] {
   font-family: 'Courier New', Courier, monospace;
   color: cornflowerblue text-align center;
   cursor: pointer;
-  margin-top: 5px;
+  margin-top: 10px;
   transition: .5s ease background-color;
 }
 
