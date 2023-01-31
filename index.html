@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+    <h1 id="title">How can the Bd Lifestyles improve and increse their product quality and value?"</h1>
+    <p id="description">Thank you for taking the time to help the Bd Lifestyles brush up.</p>
+    
+    <form id="survey-form">
+      <div class="input-element">
+        <label id="name-label">
+        Name
+         </label>
+        <input placeholder="name" id="name"  type="text" required/>
+           </div>
+    
+        <div class="input-element">
+        <label id="email-label">
+        Email
+         </label>
+        <input placeholder="email" id="email"  type="email" required/>
+    
+           </div>
+    
+    <div class="input-element">
+        <label id="number-label">
+        Age
+         </label>
+        <input placeholder="age" id="number" min="5" max="100" type="number" required/>
+    
+           </div>
+    
+        <div class="input-element">
+        <label id="select-label">
+          which is your favoriet items?
+           </label>
+        <select id="dropdown">
+          <option>Womeans Ware Saree</option>
+          <option>Womeans Ware Salwar Kameez</option>
+          <option>Home decor bedcover</option>
+          <option>Home decor curtain</option>
+          <option>Home decor cushion cover</option>
+          <option>spices</option>
+          <option>frozen foods</option>
+          <option>Pickles</option>
+          <option>Snacks</option>
+        </select>
+             </div>
+             <div>
+               <label>Have you been to buy before?</level>
+               <div>
+    <level><input type="radio" name="buy" value="6">Yes</level>
+    </div>
+    <div>
+    <label><input type="radio" name="buy" value="7">No</label>
+    </div>
+    
+    <div>
+               <label>Any suggestion for the Bd Lifestyles to improve products lifecycle?</level>
+               <div>
+    <level><input type="checkbox" name="ideas" value="1">Quality</level>
+    </div>
+    <div>
+    <label><input type="checkbox" name="ideas" value="2" >Price</label>
+    </div>
+    
+    <div>
+               <label>Any suggestion for the Bd Lifestyles to added new productsin showcase?</level>
+               <div>
+    <level><input type="checkbox" name="ideas" value="3">Clothings</level>
+    </div>
+    <div>
+    <label><input type="checkbox" name="ideas" value="4">Foods</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="ideas" value="5">Others</label>
+    </div>
+     </div>
+     <div>
+       <level>Additional comments</lavel>
+       <textarea type="text"></textarea>
+     </div>
+     <button type="submit" id=submit></button>
+        </from>
+        
+           
+</body>
+</html>
