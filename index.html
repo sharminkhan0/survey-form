@@ -14,7 +14,7 @@
     <h1 id="title">How can the Bd Lifestyles improve and increse their product quality and value?"</h1>
     <p id="description">Thank you for taking the time to help the Bd Lifestyles brush up.</p>
 
-    <form id="survey-form">
+    <form id="survey-form" onsubmit="submitEmail(); reset(); return false;">
         <div class="input-element">
             <label id="name-label">
                 Name
@@ -38,10 +38,10 @@
         </div>
 
         <div class="input-element">
-            <label id="contact-label">
-                Contact
+            <label id="phone-label">
+                Pnome no.
             </label>
-            <input placeholder="contact" id="contact" type="contact" required />
+            <input placeholder="Phone no." id="phone" type="phone" required />
         </div>
 
         <div class="input-element">
@@ -220,7 +220,7 @@
 
 
         <div class="input-element">
-            <label>Do you Know Adiy's Kitchen and Bd Lifestyles are sister concern?</level>
+            <label>Do you know Adiy's Kitchen and Bd Lifestyles are sister concern?</level>
                 <div>
                     <level><input type="radio" name="buy1" value="13">Yes</level>
                 </div>
@@ -300,7 +300,25 @@
         <button type="reset" value="Reset">Reset</button>
         </from>
 
-
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function submitEmail(){
+        Email.send({
+            Host : "smtp.gmail.com",
+            Username : "easylearningaz@gmail.com",
+            Password : "01717715221Sk#",
+            To : 'beginnersielts@gmail.com',
+            From : document.getElementById("email").value
+            Subject :"New Contact from Survey",
+            Body : "Name: " + document.getElementById("name").value
+                 + "<br> Email:" + document.getElementById("email").value  
+                 + "<br> Phone no:" + document.getElementById("phone").value  
+                 + "<br> Form:" + document.getElementById("form").value  
+            }).then(
+            message => alert("Form Sent Successfully")
+            );   
+    }
+</script>
 </body>
 
 </html>
