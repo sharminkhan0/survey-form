@@ -38,8 +38,7 @@ input {
   display: flex;
   flex-direction: column;
   margin: 10px;
-  disabled-selected-hidden-text-color: offwhite; 
-}
+  }
 
 select {
   padding: 5px;
