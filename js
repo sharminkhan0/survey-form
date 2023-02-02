@@ -6,8 +6,8 @@
             Username : "easylearningaz@gmail.com",
             Password : "***********",
             To : 'beginnersielts@gmail.com',
-            From : document.getElementById("email").value
-            Subject : ('New Contact from Survey'),
+            From : document.getElementById("email").value,
+            Subject :"New Contact from Survey",
             Body : "Name: " + document.getElementById("name").value
                  + "<br> Email:" + document.getElementById("email").value  
                  + "<br> Phone no:" + document.getElementById("phone").value  
